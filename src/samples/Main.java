@@ -5,6 +5,7 @@ public class Main implements Operation {
 	public Main() {
 		Operation.interfaceStaticMethod();
 		interfaceDefaultMethod();
+		
 	}
 
 	public static void main(String[] args) {
