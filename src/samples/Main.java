@@ -4,12 +4,13 @@ public class Main {
 	
 	public Main() {
 		
-		Operation operation = ()-> 3.4f * 5;
-		Operation o2 = ()-> 4/2;
-		printResultOfThis(operation);
-		printResultOfThis(o2);
+		
+		printResultOfThis(this::anyMethod);
 	}
-
+	
+	private float anyMethod() {
+		return 10/5;
+	}
 	public static void main(String[] args) {
 		new Main();
 		System.out.println("Hola");
